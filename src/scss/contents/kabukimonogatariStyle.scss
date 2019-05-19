@@ -1,0 +1,51 @@
+.kabuki-box {
+  writing-mode: vertical-rl;
+  span {
+    display: block;
+    float: left;
+    line-height: 80px;
+    transform: skewY(-14deg) scaleX(0.6);
+  }
+  .main {
+    color: #FAFBFE;
+    font-size: 80px;
+    font-family: '游明朝','YuMincho', 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro', 'ＭＳ Ｐ明朝',serif;
+    letter-spacing: -28px;
+  }
+  .sub {
+    font-family: '游ゴシック','YuGothic', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-size: 24px;
+    letter-spacing: -6px;
+    color: #EDE775;
+    &:after {
+      clear: both;
+      display: block;
+      content: "";
+      height: 0;
+    }
+  }
+  .main-top {
+    text-shadow: 0 0 18px #5C9B3B;
+  }
+  .main-middle {
+    text-shadow: 0 0 18px #92942B;
+  }
+  .main-bottom {
+    text-shadow: 0 0 18px #DF8C22;
+  }
+  .sub-top {
+    text-shadow: 0 0 12px #679433;
+  }
+  .sub-bottom {
+    text-shadow: 0 0 12px #C08E25;
+  }
+  :nth-child(2) {
+    margin-top: 24px;
+  }
+  :nth-child(6) {
+    margin-bottom: 8px;
+  }
+  :nth-child(8) {
+    margin-top: 24px;
+  }
+}
