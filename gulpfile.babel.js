@@ -24,7 +24,7 @@ gulp.task('webserver', () => {
 
 // sass
 gulp.task('scss', () => {
-  return gulp.src(`${config.src}/scss/**/*.scss`)
+  return gulp.src(`${config.src}/scss/**/style.scss`)
     .pipe(plumber({ errorHandler: notify.onError("Error: <%= error.message %>") }))
     .pipe(sass({ outputStyle: 'compressed'}))
     .pipe(gulp.dest(`${config.dist}/assets/css/`))
