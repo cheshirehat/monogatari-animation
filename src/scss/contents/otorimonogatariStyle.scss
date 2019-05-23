@@ -1,4 +1,7 @@
 .otori-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #26228E;
+    text-shadow: 0 0 18px #26228E, 0 0 18px #26228E,
+    0 0 18px #26228E, 0 0 18px #26228E,
+    0 0 18px #26228E, 0 0 18px #26228E;
   }
   .main-middle {
-    text-shadow: 0 0 18px #A26A64;
+    text-shadow: 0 0 18px #A26A64, 0 0 18px #A26A64,
+    0 0 18px #A26A64, 0 0 18px #A26A64,
+    0 0 18px #A26A64, 0 0 18px #A26A64;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #D0671E;
+    text-shadow: 0 0 18px #D0671E, 0 0 18px #D0671E,
+    0 0 18px #D0671E, 0 0 18px #D0671E,
+    0 0 18px #D0671E, 0 0 18px #D0671E;
   }
   .sub-top {
-    text-shadow: 0 0 12px #503375;
+    text-shadow: 0 0 12px #503375, 0 0 12px #503375,
+    0 0 12px #503375, 0 0 12px #503375,
+    0 0 12px #503375, 0 0 12px #503375,
+    0 0 12px #503375, 0 0 12px #503375;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #AD5A2E;
+    text-shadow: 0 0 12px #AD5A2E, 0 0 12px #AD5A2E,
+    0 0 12px #AD5A2E, 0 0 12px #AD5A2E,
+    0 0 12px #AD5A2E, 0 0 12px #AD5A2E,
+    0 0 12px #AD5A2E, 0 0 12px #AD5A2E;
   }
   :nth-child(2) {
     margin-top: 24px;

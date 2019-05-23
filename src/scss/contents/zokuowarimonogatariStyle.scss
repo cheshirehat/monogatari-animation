@@ -1,4 +1,7 @@
 .zokuowari-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,25 +28,42 @@
     }
   }
   .main-sign {
-    text-shadow: 0 0 18px #CF493E;
+    text-shadow: 0 0 18px #CF493E, 0 0 18px #CF493E,
+    0 0 18px #CF493E, 0 0 18px #CF493E,
+    0 0 18px #CF493E, 0 0 18px #CF493E;
   }
   .main-top {
-    text-shadow: 0 0 18px #BD3F4F;
+    text-shadow: 0 0 18px #BD3F4F, 0 0 18px #BD3F4F,
+    0 0 18px #BD3F4F, 0 0 18px #BD3F4F,
+    0 0 18px #BD3F4F, 0 0 18px #BD3F4F;
   }
   .main-middle {
-    text-shadow: 0 0 18px #942D80;
+    text-shadow: 0 0 18px #942D80, 0 0 18px #942D80,
+    0 0 18px #942D80, 0 0 18px #942D80,
+    0 0 18px #942D80, 0 0 18px #942D80,;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #802399;
+    text-shadow: 0 0 18px #802399, 0 0 18px #802399,
+    0 0 18px #802399, 0 0 18px #802399,
+    0 0 18px #802399, 0 0 18px #802399;
   }
   .sub-sign {
-    text-shadow: 0 0 12px #CA473D;
+    text-shadow: 0 0 12px #CA473D, 0 0 12px #CA473D,
+    0 0 12px #CA473D, 0 0 12px #CA473D,
+    0 0 12px #CA473D, 0 0 12px #CA473D,
+    0 0 12px #CA473D, 0 0 12px #CA473D;
   }
   .sub-top {
-    text-shadow: 0 0 12px #A23566;
+    text-shadow: 0 0 12px #A23566, 0 0 12px #A23566,
+    0 0 12px #A23566, 0 0 12px #A23566,
+    0 0 12px #A23566, 0 0 12px #A23566,
+    0 0 12px #A23566, 0 0 12px #A23566;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #852988;
+    text-shadow: 0 0 12px #852988, 0 0 12px #852988,
+    0 0 12px #852988, 0 0 12px #852988,
+    0 0 12px #852988, 0 0 12px #852988,
+    0 0 12px #852988, 0 0 12px #852988;
   }
   :nth-child(2) {
     margin-top: 24px;

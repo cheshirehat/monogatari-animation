@@ -1,4 +1,7 @@
 .nisezyou-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #A80E67;
+    text-shadow: 0 0 18px #A80E67, 0 0 18px #A80E67,
+    0 0 18px #A80E67, 0 0 18px #A80E67,
+    0 0 18px #A80E67, 0 0 18px #A80E67;
   }
   .main-middle {
-    text-shadow: 0 0 18px #C54335;
+    text-shadow: 0 0 18px #C54335, 0 0 18px #C54335,
+    0 0 18px #C54335, 0 0 18px #C54335,
+    0 0 18px #C54335, 0 0 18px #C54335;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #D9671D;
+    text-shadow: 0 0 18px #D9671D, 0 0 18px #D9671D,
+    0 0 18px #D9671D, 0 0 18px #D9671D,
+    0 0 18px #D9671D, 0 0 18px #D9671D;
   }
   .sub-top {
-    text-shadow: 0 0 12px #B02651;
+    text-shadow: 0 0 12px #B02651, 0 0 12px #B02651,
+    0 0 12px #B02651, 0 0 12px #B02651,
+    0 0 12px #B02651, 0 0 12px #B02651,
+    0 0 12px #B02651, 0 0 12px #B02651;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #C65429;
+    text-shadow: 0 0 12px #C65429, 0 0 12px #C65429,
+    0 0 12px #C65429, 0 0 12px #C65429,
+    0 0 12px #C65429, 0 0 12px #C65429,
+    0 0 12px #C65429, 0 0 12px #C65429;
   }
   :nth-child(2) {
     margin-top: 24px;

@@ -1,4 +1,7 @@
 .koyomi-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #8EE23A;
+    text-shadow: 0 0 18px #8EE23A, 0 0 18px #8EE23A,
+    0 0 18px #8EE23A, 0 0 18px #8EE23A,
+    0 0 18px #8EE23A, 0 0 18px #8EE23A;
   }
   .main-middle {
-    text-shadow: 0 0 18px #659D4A;
+    text-shadow: 0 0 18px #659D4A, 0 0 18px #659D4A,
+    0 0 18px #659D4A, 0 0 18px #659D4A,
+    0 0 18px #659D4A, 0 0 18px #659D4A;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #527FAF;
+    text-shadow: 0 0 18px #527FAF, 0 0 18px #527FAF,
+    0 0 18px #527FAF, 0 0 18px #527FAF,
+    0 0 18px #527FAF, 0 0 18px #527FAF;
   }
   .sub-top {
-    text-shadow: 0 0 12px #7BCA47;
+    text-shadow: 0 0 12px #7BCA47, 0 0 12px #7BCA47,
+    0 0 12px #7BCA47, 0 0 12px #7BCA47,
+    0 0 12px #7BCA47, 0 0 12px #7BCA47,
+    0 0 12px #7BCA47, 0 0 12px #7BCA47;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #588A63;
+    text-shadow: 0 0 12px #588A63, 0 0 12px #588A63,
+    0 0 12px #588A63, 0 0 12px #588A63,
+    0 0 12px #588A63, 0 0 12px #588A63,
+    0 0 12px #588A63, 0 0 12px #588A63;
   }
   :nth-child(2) {
     margin-top: 24px;

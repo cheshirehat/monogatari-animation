@@ -1,4 +1,7 @@
 .tuki-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #5B6DCC;
+    text-shadow: 0 0 18px #5B6DCC, 0 0 18px #5B6DCC,
+    0 0 18px #5B6DCC, 0 0 18px #5B6DCC,
+    0 0 18px #5B6DCC, 0 0 18px #5B6DCC;
   }
   .main-middle {
-    text-shadow: 0 0 18px #835AD5;
+    text-shadow: 0 0 18px #835AD5, 0 0 18px #835AD5,
+    0 0 18px #835AD5, 0 0 18px #835AD5,
+    0 0 18px #835AD5, 0 0 18px #835AD5;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #A848DA;
+    text-shadow: 0 0 18px #A848DA, 0 0 18px #A848DA,
+    0 0 18px #A848DA, 0 0 18px #A848DA,
+    0 0 18px #A848DA, 0 0 18px #A848DA;
   }
   .sub-top {
-    text-shadow: 0 0 12px #6A63CC;
+    text-shadow: 0 0 12px #6A63CC, 0 0 12px #6A63CC,
+    0 0 12px #6A63CC, 0 0 12px #6A63CC,
+    0 0 12px #6A63CC, 0 0 12px #6A63CC,
+    0 0 12px #6A63CC, 0 0 12px #6A63CC;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #9250D0;
+    text-shadow: 0 0 12px #9250D0, 0 0 12px #9250D0,
+    0 0 12px #9250D0, 0 0 12px #9250D0,
+    0 0 12px #9250D0, 0 0 12px #9250D0,
+    0 0 12px #9250D0, 0 0 12px #9250D0;
   }
   :nth-child(2) {
     margin-top: 24px;

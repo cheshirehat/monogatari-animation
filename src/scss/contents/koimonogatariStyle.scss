@@ -1,4 +1,7 @@
 .koi-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,27 +28,42 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #6D78D3;
+    text-shadow: 0 0 18px #6D78D3, 0 0 18px #6D78D3,
+      0 0 18px #6D78D3, 0 0 18px #6D78D3,
+      0 0 18px #6D78D3, 0 0 18px #6D78D3;
   }
   .main-middle {
-    text-shadow: 0 0 18px #804FCD;
+    text-shadow: 0 0 18px #804FCD, 0 0 18px #804FCD,
+    0 0 18px #804FCD, 0 0 18px #804FCD,
+    0 0 18px #804FCD, 0 0 18px #804FCD;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #972DC5;
+    text-shadow: 0 0 18px #972DC5, 0 0 18px #972DC5,
+    0 0 18px #972DC5, 0 0 18px #972DC5,
+    0 0 18px #972DC5, 0 0 18px #972DC5;
   }
   .sub-top {
-    text-shadow: 0 0 12px #6D78D3;
+    text-shadow: 0 0 12px #6D78D3, 0 0 12px #6D78D3,
+    0 0 12px #6D78D3, 0 0 12px #6D78D3,
+    0 0 12px #6D78D3, 0 0 12px #6D78D3,
+    0 0 12px #6D78D3, 0 0 12px #6D78D3;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #843ABD;
+    text-shadow: 0 0 12px #843ABD, 0 0 12px #843ABD,
+    0 0 12px #843ABD, 0 0 12px #843ABD,
+    0 0 12px #843ABD, 0 0 12px #843ABD,
+    0 0 12px #843ABD, 0 0 12px #843ABD;
   }
   :nth-child(2) {
-    margin-top: 24px;
+    margin-top: 26px;
   }
   :nth-child(5) {
     margin-bottom: 8px;
   }
   :nth-child(7) {
-    margin-top: 24px;
+    margin-top: 26px;
+  }
+  :nth-child(9) {
+    margin-bottom: 8px;
   }
 }

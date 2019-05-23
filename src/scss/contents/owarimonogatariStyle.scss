@@ -1,4 +1,7 @@
 .owari-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #C24AC6;
+    text-shadow: 0 0 18px #C24AC6, 0 0 18px #C24AC6,
+    0 0 18px #C24AC6, 0 0 18px #C24AC6,
+    0 0 18px #C24AC6, 0 0 18px #C24AC6;
   }
   .main-middle {
-    text-shadow: 0 0 18px #8780A7;
+    text-shadow: 0 0 18px #8780A7, 0 0 18px #8780A7,
+    0 0 18px #8780A7, 0 0 18px #8780A7,
+    0 0 18px #8780A7, 0 0 18px #8780A7;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #528177;
+    text-shadow: 0 0 18px #528177, 0 0 18px #528177,
+    0 0 18px #528177, 0 0 18px #528177,
+    0 0 18px #528177, 0 0 18px #528177;
   }
   .sub-top {
-    text-shadow: 0 0 12px #A459B3;
+    text-shadow: 0 0 12px #A459B3, 0 0 12px #A459B3,
+    0 0 12px #A459B3, 0 0 12px #A459B3,
+    0 0 12px #A459B3, 0 0 12px #A459B3,
+    0 0 12px #A459B3, 0 0 12px #A459B3;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #5B707F;
+    text-shadow: 0 0 12px #5B707F, 0 0 12px #5B707F,
+    0 0 12px #5B707F, 0 0 12px #5B707F,
+    0 0 12px #5B707F, 0 0 12px #5B707F,
+    0 0 12px #5B707F, 0 0 12px #5B707F;
   }
   :nth-child(2) {
     margin-top: 24px;

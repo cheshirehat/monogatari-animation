@@ -1,4 +1,7 @@
 .kabuki-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #5C9B3B;
+    text-shadow: 0 0 18px #5C9B3B, 0 0 18px #5C9B3B,
+    0 0 18px #5C9B3B, 0 0 18px #5C9B3B,
+    0 0 18px #5C9B3B, 0 0 18px #5C9B3B;
   }
   .main-middle {
-    text-shadow: 0 0 18px #92942B;
+    text-shadow: 0 0 18px #92942B, 0 0 18px #92942B,
+    0 0 18px #92942B, 0 0 18px #92942B,
+    0 0 18px #92942B, 0 0 18px #92942B;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #DF8C22;
+    text-shadow: 0 0 18px #DF8C22, 0 0 18px #DF8C22,
+    0 0 18px #DF8C22, 0 0 18px #DF8C22,
+    0 0 18px #DF8C22, 0 0 18px #DF8C22;
   }
   .sub-top {
-    text-shadow: 0 0 12px #679433;
+    text-shadow: 0 0 12px #679433, 0 0 12px #679433,
+    0 0 12px #679433, 0 0 12px #679433,
+    0 0 12px #679433, 0 0 12px #679433,
+    0 0 12px #679433, 0 0 12px #679433;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #C08E25;
+    text-shadow: 0 0 12px #C08E25, 0 0 12px #C08E25,
+    0 0 12px #C08E25, 0 0 12px #C08E25,
+    0 0 12px #C08E25, 0 0 12px #C08E25,
+    0 0 12px #C08E25, 0 0 12px #C08E25;
   }
   :nth-child(2) {
     margin-top: 24px;

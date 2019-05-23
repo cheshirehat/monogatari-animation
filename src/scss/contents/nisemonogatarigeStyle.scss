@@ -1,4 +1,7 @@
 .nisege-box {
+  position: absolute;
+  top: 10%;
+  left: 40%;
   writing-mode: vertical-rl;
   span {
     display: block;
@@ -25,19 +28,31 @@
     }
   }
   .main-top {
-    text-shadow: 0 0 18px #5EA671;
+    text-shadow: 0 0 18px #5EA671, 0 0 18px #5EA671,
+    0 0 18px #5EA671, 0 0 18px #5EA671,
+    0 0 18px #5EA671, 0 0 18px #5EA671;
   }
   .main-middle {
-    text-shadow: 0 0 18px #73C142;
+    text-shadow: 0 0 18px #73C142, 0 0 18px #73C142,
+    0 0 18px #73C142, 0 0 18px #73C142,
+    0 0 18px #73C142, 0 0 18px #73C142;
   }
   .main-bottom {
-    text-shadow: 0 0 18px #8BD935;
+    text-shadow: 0 0 18px #8BD935, 0 0 18px #8BD935,
+    0 0 18px #8BD935, 0 0 18px #8BD935,
+    0 0 18px #8BD935, 0 0 18px #8BD935;
   }
   .sub-top {
-    text-shadow: 0 0 12px #63AD5F;
+    text-shadow: 0 0 12px #63AD5F, 0 0 12px #63AD5F,
+    0 0 12px #63AD5F, 0 0 12px #63AD5F,
+    0 0 12px #63AD5F, 0 0 12px #63AD5F,
+    0 0 12px #63AD5F, 0 0 12px #63AD5F;
   }
   .sub-bottom {
-    text-shadow: 0 0 12px #7FCD3B;
+    text-shadow: 0 0 12px #7FCD3B, 0 0 12px #7FCD3B,
+    0 0 12px #7FCD3B, 0 0 12px #7FCD3B,
+    0 0 12px #7FCD3B, 0 0 12px #7FCD3B,
+    0 0 12px #7FCD3B, 0 0 12px #7FCD3B;
   }
   :nth-child(2) {
     margin-top: 24px;
